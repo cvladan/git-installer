@@ -73,6 +73,7 @@ sayhelloGitInstaller()->Ecosystem->run();
 sayhelloGitInstaller()->Hooks = new SayHello\GitInstaller\Package\Hooks();
 sayhelloGitInstaller()->Hooks->run();
 
+/*
 require_once 'src/plugin-update-checker-5.0/plugin-update-checker.php';
 
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
@@ -82,3 +83,4 @@ $gitInstallerChecker = PucFactory::buildUpdateChecker(
     __FILE__,
     'shgi'
 );
+*/
